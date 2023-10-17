@@ -25,12 +25,16 @@ This Python script implements the Inter-Means algorithm for automatic threshold-
 
 The Inter-Means algorithm effectively separates the objects of interest from the background, resulting in clear and segmented images. The script saves the segmented images with filenames like `segmented_Eiffel_Tower.jpg` and `segmented_people.jpg`.
 
+## Verification Using scikit-image
+
+To verify the accuracy of the segmentation results, this script uses the `scikit-image` (skimage) library. The `threshold_otsu` method from `skimage` is employed to calculate an optimal threshold for image segmentation. By comparing the results obtained with the Inter-Means algorithm and `skimage`, you can ensure the reliability of the segmentation.
+
 ## Getting Started
 
 1. Clone this repository.
 2. Install the required libraries using 
 ```
-pip install numpy opencv-python matplotlib
+pip install numpy opencv-python matplotlib scikit-image
 ```
 3. Run the script by providing your own images or use the provided examples.
 
