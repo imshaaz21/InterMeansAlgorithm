@@ -1,6 +1,6 @@
 # Inter-Means Image Segmentation
 
-This Python script implements the Inter-Means algorithm for automatic threshold-based image segmentation. It finds the optimal threshold to separate objects of interest from the background in an image.
+This jupyter notebook implements the Inter-Means algorithm for automatic threshold-based image segmentation. It finds the optimal threshold to separate objects of interest from the background in an image.
 
 ## How It Works
 
